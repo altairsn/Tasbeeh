@@ -5,6 +5,15 @@
     font-family: monospace;
 }
 
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 div#buttons {
     width: 100%;
     display: flex;
@@ -99,8 +108,8 @@ div#itemCounter {
 }
 
 main {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
